@@ -1,0 +1,29 @@
+
+button {
+    font-weight: bold;
+    padding-left: 12px;
+    line-height: 100%;
+    font-size: 40px;
+    display: flex;
+    color: rgb(41, 44, 52);
+    font-family: 'Consolas', monospace;
+    border-radius: 30%;
+    outline: none;
+    border-color: transparent;
+}
+
+.operation-button {
+    background-color: rgb(252, 148, 65);
+}
+
+.operation-button:active {
+    background-color: rgb(231, 137, 60);
+}
+
+.number-operand {
+    background-color: rgb(127, 218, 252);
+}
+
+.number-operand:active {
+    background-color: rgb(112, 193, 223);
+}
